@@ -10,16 +10,16 @@ Practica
 4. Opción: 2
 5. Da error, ya que un puntero double apunta a una variable char
 6. Codigo:
-void swap (int* x, int* y) { 
+void swap (int* x, int* y) {
     int temp = *x;
     *x = *y;
-    *y = temp; 
+    *y = temp;
 }
 int main(){
     int a = 5, b = 10, c = 7;
     swap(&a, &b);
     swap(&a, &c);
-    cout << a << " " << b << “ “ << c << endl;
+    cout << a << " " << b << " " << c << endl;
 }
 7.Imprime: 2 8
 8. Imprime: 
@@ -39,7 +39,7 @@ int main() {
     cout<< ptr;
 }
 12. Imprime: 13 13 13
-13. Imprime: 7 5 10
+13. Imprime: 5 10 7
 14. Imprime: 4 1
 15. Codigo:
 int main() {
@@ -55,10 +55,10 @@ int main() {
 17. Imprime: nada
 18. Imprime: 18    
 19. 
-    En "len" se guardan la cantidad de caracteres e str, luego p se iguala a la 
-    posicion del arreglo str[n], con el while se retrocedera de posiciones hasta
+    En "len" se guardan la cantidad de caracteres de str, luego p se iguala a la 
+    posicion del arreglo str[len-1], con el while se retrocedera de posiciones hasta
     que complete el arreglo, luego de salir del while , se suma uno a la posicion
     en la que se encuentre el puntero, igualandolo a '\0'
-    retornando el arreglo
+    retornando el arreglo para finalizar.
 20. 
 
