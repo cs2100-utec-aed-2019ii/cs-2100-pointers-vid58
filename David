@@ -60,5 +60,5 @@ int main() {
     que complete el arreglo, luego de salir del while , se suma uno a la posicion
     en la que se encuentre el puntero, igualandolo a '\0'
     retornando el arreglo para finalizar.
-20. 
+20.  Borra comas.
 
