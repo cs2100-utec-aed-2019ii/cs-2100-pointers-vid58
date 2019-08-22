@@ -1,0 +1,45 @@
+Practica
+
+1. Se imprimen los valores del array, los cuales se estan almacenando
+- 1 2 3 4 5 6 7 8 9 10
+2. Imprime 7 5 10
+3. Imprime:
+          - T
+          - L
+          - T
+4. Opción: 2
+5. Da error, ya que un puntero double apunta a una variable char
+6. Codigo:
+void swap (int* x, int* y) { 
+    int temp = *x;
+    *x = *y;
+    *y = temp; 
+}
+int main(){
+    int a = 5, b = 10, c = 7;
+    swap(&a, &b);
+    swap(&a, &c);
+    cout << a << " " << b << “ “ << c << endl;
+}
+7.Imprime: 2 8
+8. Imprime: 
+           - 0
+           - 8
+9. Imprime:
+           - 8
+           - 15
+10. Imprime: 8 
+11. 
+12. Imprime: 13 13 13
+13. Imprime: 7 5 10
+14. Imprime: 4 1
+15. 
+int main(){
+    
+}
+16. Imprime: 19
+17. Imprime: nada
+18. Imprime: 18    
+19. 
+20. 
+
