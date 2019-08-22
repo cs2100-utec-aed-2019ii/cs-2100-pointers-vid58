@@ -29,13 +29,27 @@ int main(){
            - 8
            - 15
 10. Imprime: 8 
-11. 
+11. Codigo:
+int main() {
+    int a=4;
+    int *ptr;
+    ptr=&a;
+    cout<< *ptr<<endl;
+    cout<<&a<<endl;
+    cout<< ptr;
+}
 12. Imprime: 13 13 13
 13. Imprime: 7 5 10
 14. Imprime: 4 1
-15. 
-int main(){
-    
+15. Codigo:
+int main() {
+    int a=4,b=5;
+    int *pa;
+    int *pb;
+    pa=&a;
+    pb=&b;
+    int c= *pa + *pb;
+    cout<<c;
 }
 16. Imprime: 19
 17. Imprime: nada
