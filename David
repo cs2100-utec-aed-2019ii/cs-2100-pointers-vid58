@@ -55,5 +55,10 @@ int main() {
 17. Imprime: nada
 18. Imprime: 18    
 19. 
+    En "len" se guardan la cantidad de caracteres e str, luego p se iguala a la 
+    posicion del arreglo str[n], con el while se retrocedera de posiciones hasta
+    que complete el arreglo, luego de salir del while , se suma uno a la posicion
+    en la que se encuentre el puntero, igualandolo a '\0'
+    retornando el arreglo
 20. 
 
